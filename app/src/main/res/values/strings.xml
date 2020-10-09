@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">pargolf2</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="forget_passeord">Forget Passeord?</string>
+    <string name="or">Or</string>
+    <string name="login">Login</string>
 </resources>
