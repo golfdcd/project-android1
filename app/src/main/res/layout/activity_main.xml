@@ -30,22 +30,25 @@
                 tools:layout_editor_absoluteX="4dp"
                 tools:layout_editor_absoluteY="3dp" />
             <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/username_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/username"
                 android:layout_margin="10dp"/>
             <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/password_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
                 android:layout_margin="10dp"/>
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/login"
                 android:background="@drawable/button_login_background"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/login"
                 android:layout_margin="10dp"
-                android:textColor="@color/login_text"/>
+                android:textColor="#EDEAEA"/>
             <androidx.appcompat.widget.AppCompatButton
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
